@@ -1,0 +1,49 @@
+[
+    {
+        "id": "c7acb41a119a1e21",
+        "type": "mqtt in",
+        "z": "f52d87b936e2a548",
+        "name": "Licht",
+        "topic": "garden/light",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "61d47094ef776f19",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "x": 100,
+        "y": 1720,
+        "wires": [
+            [
+                "30765992e316b76e",
+                "45762c50bb988a9d",
+                "03fa507e935c73bc"
+            ]
+        ]
+    },
+    {
+        "id": "61d47094ef776f19",
+        "type": "mqtt-broker",
+        "name": "MQTT Broker",
+        "broker": "",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    }
+]
